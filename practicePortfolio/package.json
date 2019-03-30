@@ -1,0 +1,26 @@
+{
+  "name": "solomonblog",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanderson98/myBlog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Solomon Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanderson98/myBlog/issues"
+  },
+  "homepage": "https://github.com/sanderson98/myBlog#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-sass": "^4.11.0"
+  }
+}
